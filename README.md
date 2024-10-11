@@ -1,42 +1,29 @@
-# GROWI Plugin convert to file-link
+# GROWI 'Convert to file-link' Plugin
 
 This is a GROWI's plugin.
+Convert a URL whose 'href' attribute in the anchor tag begins with 'http[s]://file.link/' to a file link.
 
-## Usage
+# Install
 
-### Download or folk this repository
+Install a plugin in admin panel.
 
-```bash
-git clone git@github.com:goofmint/growi-plugin-file-link.git
+# Usage
+
+If you want to use file links in GROWI, write
+
+```
+[test](https://file.link/test-server/test-directory)
+
+or
+
+<a href="https://file.link/test-server/test-directory">test</a>
 ```
 
-### Edit those files
+Then it will be converted and rendered as follows.
 
-Of course, you can add or remove files as you like.
-
-- client-entry.tsx
-- src/ConvertToFileLink.tsx
-- src/Demo.tsx
-
-### Preview the plugin
-
-```bash
-yarn dev
 ```
-
-### Build the plugin
-
-```bash
-yarn build
+<a href="file://test-server/test-directory">test</a>
 ```
-
-## Publish the plugin at GROWI
-
-Add a topic `growi-plugin` on your GitHub repository.
-
-Then, you can see your plugin on the GROWI plugin list page below.
-
-<https://growi.org/plugins>
 
 ## License
 
