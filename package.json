@@ -1,6 +1,6 @@
 {
   "name": "growi-plugin-convert-to-file-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a URL whose href attribute in the anchor tag begins with 'http[s]://file.link/' to a file link.",
   "license": "MIT",
   "keywords": [

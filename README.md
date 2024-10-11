@@ -1,24 +1,13 @@
-# GROIW Plugin template for script
+# GROWI Plugin convert to file-link
 
-This is a template for creating a GROWI script plugin.
+This is a GROWI's plugin.
 
 ## Usage
 
-### Download or folk this repository.
+### Download or folk this repository
 
 ```bash
-git clone git@github.com:goofmint/growi-plugin-script-template.git
-```
-
-### Change the name of the plugin in package.json.
-
-```js
-{
-  "name": "growi-plugin-script-template",  // Change this name
-  "version": "1.0.0",
-  "description": "GROWI plugin template for script", // Change this description
-	:
-}
+git clone git@github.com:goofmint/growi-plugin-file-link.git
 ```
 
 ### Edit those files
@@ -26,8 +15,7 @@ git clone git@github.com:goofmint/growi-plugin-script-template.git
 Of course, you can add or remove files as you like.
 
 - client-entry.tsx
-- src/Hello.tsx
-- src/Hello.css
+- src/ConvertToFileLink.tsx
 - src/Demo.tsx
 
 ### Preview the plugin
@@ -48,9 +36,8 @@ Add a topic `growi-plugin` on your GitHub repository.
 
 Then, you can see your plugin on the GROWI plugin list page below.
 
-https://growi.org/plugins
+<https://growi.org/plugins>
 
 ## License
 
 MIT
-

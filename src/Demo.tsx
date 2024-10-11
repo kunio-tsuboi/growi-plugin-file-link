@@ -6,7 +6,7 @@ import { convertToFileLink } from './ConvertToFileLink';
 
 const href = 'https://file.link/test-svr/test-directory/';
 
-const LinkConverter = convertToFileLink(() => <a href={href}>Hello, GROWI1</a>);
+const LinkConverter = convertToFileLink(() => <a href={href}>Hello, GROWI</a>);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
