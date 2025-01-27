@@ -10,12 +10,12 @@ export const convertToFileLink = (A: React.FunctionComponent<any>): React.Functi
         return (<a href={link} {...props}>{children}</a>);
       }
       // return the original
-      return (<A href="${href}" {...props}>{children}</A>);
+      return (<A href={href} {...props}>{children}</A>);
     }
     catch (err) {
       console.error(err);
     }
     // Return the original if an error occurs
-    return (<A href="${href}" {...props}>{children}</A>);
+    return (<A href={href} {...props}>{children}</A>);
   };
 };
